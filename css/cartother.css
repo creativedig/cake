@@ -1,0 +1,362 @@
+.other-container{
+    font-family: "Poppins";
+    background:white;
+    padding: 7%;
+}
+
+h2, h3{
+    font-family:"Poppins";
+}
+.wish-heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px 40px;
+
+}
+.wish-heading-text{
+    font-size:2rem;
+    font-weight:600;
+    margin-bottom:40px;
+}
+
+.wishlist-container{
+    background:white;
+    border-radius: 20px;
+    border:1px solid gray;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    padding:2px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0;
+}
+
+.wishlist-left{
+    display:flex;
+    align-items:center;
+    width:50%;
+}
+
+.wish-img{
+    width:100px;
+    height:100px;
+    margin-right:20px;
+}
+
+.wish-img img{
+    width:100%;
+    height:auto;
+}
+
+.wishlist-left h3{
+    font-size:1.2rem;
+    font-weight:500;
+}
+.wishlist-right{
+    width:35%;
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.wishlist-price h2{
+    font-size:1.5rem;
+    font-weight:500;
+}
+
+.wishlist-button a{
+    background:white;
+    border:1px solid var(--Anniversary-btn);
+    padding:10px 20px;
+    border-radius:5px;
+    color:var(--Anniversary-btn);
+    text-decoration:none;
+    transition: var(--transition);
+}
+
+.wishlist-button a:hover{
+    background:var(--Anniversary-btn);
+    color:white;
+}
+
+
+/*CART DESIGN*/
+/*CART DESIGN*/
+/*CART DESIGN*/
+/*CART DESIGN*/
+.cart-container{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    margin:20px 0;
+    align-items: center;
+}
+
+.cart-left-container{
+    width:65%;
+}
+
+.cart-left{
+   align-items:center;
+   width:60%;
+   padding:10px 0px;
+}
+
+.cart-left h2, .cart-left h3, .cart-left h5{
+    font-family:"Poppins";
+}
+
+.cart-left-text h3{
+    font-size:1rem;
+    font-weight:500;
+}
+
+.cart-left-text h5{
+    font-size:.8rem;
+    font-weight:500;
+}
+
+.cart-left-text h2{
+    font-size:1.5rem;
+    font-weight:500;
+}
+
+
+
+.right-cart{
+    width: 40%;
+}
+
+.counter-box{
+    padding:5px 5px;
+}
+
+.counter-box button{
+    padding: 5px 10px;
+    margin:0px 5px;
+    color:white;
+    background:var(--purple);
+    border:none;
+}
+
+.counter-box button:nth-child(1){
+    background: var(--Anniversary-btn);
+}
+
+.container-cart-right{
+    width:35%;
+}
+.container-cart-right a{
+    background:var(--purple);
+    padding:10px 50px;
+    border-radius:50px;
+    color:white;
+    text-decoration:none;
+    transition: var(--transition);
+}
+
+.container-cart-right a:hover{
+    background:white;
+    color:var(--purple);
+    box-shadow: 0px 0px 5px var(--purple);
+}
+
+
+
+.cart-right-container{
+    width:100%;
+    background:rgb(245, 242, 242);
+    padding: 20px 20px;
+    margin-bottom: 30px;
+}
+.cart-right-container h5{
+    font-family: "Poppins";
+}
+
+.right-cart-line{
+    height:.3%;
+    max-width: 100%;
+    background:rgb(171, 171, 171);
+    margin:20px 0;
+}
+
+.right-cart-text{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.right-cart-text h6{
+    font-size:.8rem;
+    font-weight:500;
+    font-family: "Poppins";
+}
+
+.right-cart-text h6:nth-child(5){
+    font-size:1rem;
+    font-weight:700;
+}
+
+
+.cart-total{
+    font-family: "Poppins";
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0;
+}
+
+.cart-total h3{
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE DESIGN START HERE*/
+/*MOBILE DESIGN START HERE*/
+/*MOBILE DESIGN START HERE*/
+/*MOBILE DESIGN START HERE*/
+
+
+
+@media (max-width: 768px) /*Mobile*/ {
+   
+    .other-container{
+         padding: 10%;    
+    }
+    
+    .wish-heading{
+        flex-direction:column;
+        margin:10px 20px 40px;
+        padding: 20px;
+    
+    }
+    .wish-heading-text{
+        font-size:2rem;
+        margin-bottom:50px;
+    }
+    
+    .wishlist-container{
+        padding:40px 20px;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin:0px 0 40px;
+    }
+    
+    .wishlist-left{
+        flex-direction:column;
+        text-align:center;
+        width:100%;
+    }
+    
+    .wish-img{
+        height:auto;
+        margin-right:0;
+    }
+    
+    .wish-img img{
+        width:100%;
+        height:auto;
+    }
+    
+    .wishlist-left h3{
+        margin-top: 15px;
+
+    }
+    .wishlist-right{
+        width:100%;
+        flex-direction:column;
+        align-items: center;
+        gap:1rem;
+    }
+    
+    .wishlist-price h2{
+        margin-top: 15px; 
+    }
+    
+
+
+/*CART DESIGN*/
+/*CART DESIGN*/
+/*CART DESIGN*/
+/*CART DESIGN*/
+.cart-container{
+   flex-direction: column;
+    justify-content:center;
+    gap:0;
+    margin:20px 0 0;
+    align-items: center;
+}
+
+.cart-left-container{
+    width:100%;
+}
+
+.cart-left{
+   align-items:center;
+   width:100%;
+   padding:10px 0px;
+   margin-bottom: 20px;
+}
+
+.right-cart{
+    width: 100%;
+}
+
+.counter-box{
+    padding:5px 5px;
+}
+
+.counter-box button{
+    padding: 10px 15px;
+    margin:10px 5px;
+    color:white;
+}
+
+
+.cart-right-container{
+    width:100%;
+    background:rgb(227, 227, 227);
+    padding: 30px 20px;
+}
+.cart-right-container h5{
+    font-family: "Poppins";
+}
+
+
+.container-cart-right{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  
