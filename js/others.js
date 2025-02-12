@@ -31,6 +31,7 @@ document.querySelectorAll(".wishlist-container").forEach(cart => {
 });
 
 
+
 document.addEventListener("DOMContentLoaded", () => {
     let cartItems = document.querySelectorAll(".wishlist-container");
 
@@ -73,7 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h5>Total</h5>
                 <h3>$${totalAmount.toFixed(2)}</h3>
             </div>
-            <a href="#">Send Order to Bakery</a>
         `;
     }
 
