@@ -1,4 +1,4 @@
-/* let count = 0;
+let count = 0;
         const counterElement = document.getElementById("counter");
         const minusBtn = document.getElementById("minusBtn");
 
@@ -16,7 +16,7 @@
                     minusBtn.disabled = true; // Disable minus button when count reaches 0
                 }
             }
-        } */
+        }
 
 
 
